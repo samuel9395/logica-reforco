@@ -13,12 +13,13 @@ public class ExercicioResolvidoUm {
         double notaSemestreDois = sc.nextDouble();
         double notaFinal = notaSemestreUm + notaSemestreDois;
 
-        System.out.println((notaFinal < 60.00)
-                ? "NOTA FINAL = " + notaFinal + "\nREPROVADO"
-                :"NOTA FINAL = " + notaFinal + "\nAPROVADO");
+        if (notaFinal < 60.00) System.out.printf("NOTA FINAL = %.1f%n*** REPROVADO ***\n-----------------", notaFinal);
+        else System.out.printf("NOTA FINAL = %.1f%n*** APROVADO ***\n----------------", notaFinal);
 
-//        if (notaFinal < 60.00) System.out.printf("NOTA FINAL = %.2f%nREPROVADO", notaFinal);
-//        else System.out.printf("NOTA FINAL = %.2f%nAPROVADO", notaFinal);
+        // Resposta alternativa
+//        System.out.println((notaFinal < 60.00)
+//                ? "NOTA FINAL = " + notaFinal + "\nREPROVADO"
+//                :"NOTA FINAL = " + notaFinal + "\nAPROVADO");
 
         sc.close();
     }
