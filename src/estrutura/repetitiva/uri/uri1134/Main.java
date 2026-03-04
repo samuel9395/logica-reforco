@@ -31,15 +31,15 @@ public class Main {
         System.out.println("\n  ==========================================");
         System.out.println("  ||          FECHAMENTO DE TURNO         ||");
         System.out.println("  ==========================================");
-        System.out.println("  DESCRIÇÃO                      QUANTIDADE ");
+        System.out.println("  DESCRIÇÃO                       QUANTIDADE");
         System.out.println("  ------------------------------------------");
-        System.out.printf("  (01) ⛽ ÁLCOOL ................... [%04d]\n", alcool);
-        System.out.printf("  (02) ⛽ GASOLINA ................. [%04d]\n", gasolina);
-        System.out.printf("  (03) ⛽ DIESEL ................... [%04d]\n", diesel);
+        System.out.printf("  (01) ⛽ ÁLCOOL ..................... [%04d]\n", alcool);
+        System.out.printf("  (02) ⛽ GASOLINA ................... [%04d]\n", gasolina);
+        System.out.printf("  (03) ⛽ DIESEL ..................... [%04d]\n", diesel);
         System.out.println("  ------------------------------------------");
-        System.out.println("  STATUS: SUCESSO        SISTEMA ATUALIZADO ");
+        System.out.println("  STATUS: SUCESSO         SISTEMA ATUALIZADO");
         System.out.println("  ==========================================");
-        System.out.println("  >>>         MUITO OBRIGADO!          <<<  ");
+        System.out.println("  >>>         MUITO OBRIGADO!            <<<");
 
 
         input.close();
