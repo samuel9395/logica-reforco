@@ -48,7 +48,8 @@ public class Main {
 
                     if (X < 1 || X > 2) {
                         while (X != 1 && X != 2) {
-                            System.out.println("novo calculo (1-sim 2-nao)");
+                            System.out.println("\n  Novo cálculo? (1-Sim / 2-Não)");
+                            System.out.print("  👉 Opção: ");
                             X = input.nextInt();
                         }
                     }
