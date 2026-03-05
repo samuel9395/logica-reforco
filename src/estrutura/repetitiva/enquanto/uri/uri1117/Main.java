@@ -1,4 +1,4 @@
-package estrutura.repetitiva.uri.uri1117;
+package estrutura.repetitiva.enquanto.uri.uri1117;
 
 import java.util.Locale;
 import java.util.Scanner;

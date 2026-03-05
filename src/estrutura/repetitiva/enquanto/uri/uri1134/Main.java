@@ -1,4 +1,4 @@
-package estrutura.repetitiva.uri.uri1134;
+package estrutura.repetitiva.enquanto.uri.uri1134;
 
 import java.util.Scanner;
 
@@ -40,11 +40,11 @@ public class Main {
             else if (codigo == 2) gasolina++;
             else if (codigo == 3) diesel++;
 
-            System.out.println("----------------");
-            System.out.println("⛽ ÁLCOOL = " + alcool);
-            System.out.println("⛽ GASOLINA  = " + gasolina);
-            System.out.println("⛽ DIESEL  = " + diesel);
-            System.out.println("----------------\n");
+            System.out.println("---------------------");
+            System.out.println("(1) ⛽ ÁLCOOL = " + alcool);
+            System.out.println("(2) ⛽ GASOLINA  = " + gasolina);
+            System.out.println("(3) ⛽ DIESEL  = " + diesel);
+            System.out.println("---------------------\n");
 
             System.out.println("---------------------------");
             System.out.println("⛽ Continuar abastecendo? (0-Sim / 4-Não)");

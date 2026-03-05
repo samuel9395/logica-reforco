@@ -1,4 +1,4 @@
-package estrutura.repetitiva;
+package estrutura.repetitiva.enquanto;
 
 import java.util.Locale;
 import java.util.Scanner;
